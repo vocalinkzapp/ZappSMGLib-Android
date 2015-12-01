@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/pbba_button_frame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pbba="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/pbba_button_container"
+        style="@style/PBBAButton.Container"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <com.zapp.library.merchant.view.TintedImageView
+            android:id="@+id/progress"
+            android:src="@drawable/pbba_symbol_icon"
+            pbba:tint="@color/pbba_button_foreground_color"
+            style="@style/PBBAButton.Progress"/>
+
+        <com.zapp.library.merchant.view.TintedImageView
+            android:id="@+id/pbba_button_pay_by_bank_app_text"
+            android:src="@drawable/pbba_pay_by_bank_app_textimage"
+            android:layout_marginLeft="@dimen/pbba_button_pay_by_bank_app_textimage_margin_left"
+            pbba:tint="@color/pbba_button_foreground_color"
+            style="@style/PBBAButton.Progress"/>
+
+    </LinearLayout>
+
+</FrameLayout>

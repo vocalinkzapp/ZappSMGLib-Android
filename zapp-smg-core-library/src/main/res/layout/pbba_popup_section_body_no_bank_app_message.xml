@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/pbba_popup_body_title"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/pbba_popup_header"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:showIn="@layout/pbba_popup_fragment_ecomm">
+
+    <com.zapp.library.merchant.view.CustomTextView
+        style="@style/PBBAPopup.Text.Body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/pbba_popup_ecom_body_margin_top"
+        android:text="@string/pbba_popup_no_bank_app_message" />
+
+    <com.zapp.library.merchant.view.CustomTextView
+        style="@style/PBBAPopup.Text.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pbba_popup_ecom_body_margin_top"
+        android:text="@string/pbba_popup_submit_code_title"
+        android:textSize="@dimen/pbba_popup_body_text_font_size" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false"
+    android:id="@+id/selected" >
+    <item android:drawable="@drawable/pbba_symbol_icon_00" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_01" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_02" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_03" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_04" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_05" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_06" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_07" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_08" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_09" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_10" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_11" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_12" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_13" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_14" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_15" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_16" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_17" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_18" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_19" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_20" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_21" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_22" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_23" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_24" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_25" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_26" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_27" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_28" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_29" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_30" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_31" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_32" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_33" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_34" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_35" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_36" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_37" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_38" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_39" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_40" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_41" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_42" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_43" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_44" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_45" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_46" android:duration="48" />
+    <item android:drawable="@drawable/pbba_symbol_icon_47" android:duration="48" />
+</animation-list>
