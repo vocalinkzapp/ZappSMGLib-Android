@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pay by Bank app button colour properties -->
+    <color name="pbba_button_border_color">@color/pbba_button_background_color</color>
+    <color name="pbba_button_background_color">#f35414</color>
+    <color name="pbba_button_foreground_color">#ffffff</color>
+    <color name="pbba_button_pressed_background_color">#F9AA8A</color>
+    <color name="pbba_symbol_icon_tint_color">@color/pbba_button_foreground_color</color>
+
+    <!-- Pay by Bank app popup colour properties -->
+    <color name="pbba_popup_screen_background_color">#D9303030</color>
+    <color name="pbba_popup_border_color">@color/pbba_button_background_color</color>
+    <color name="pbba_popup_background_color">#ffffff</color>
+    <color name="pbba_popup_foreground_color">#303030</color>
+    <color name="pbba_popup_secondary_foreground_color">@color/pbba_popup_border_color</color>
+    <color name="pbba_popup_link_color">@color/pbba_popup_foreground_color</color>
+
+    <!-- 25% alpha of pbba_popup_foreground_color -->
+    <color name="pbba_popup_separator_color">#19303030</color>
+
+    <!-- Pay by Bank app ecomm popup properties -->
+    <!--30% alpha of pbba_popup_secondary_foreground_color -->
+    <color name="pbba_popup_ecomm_indicator_one_color">#4Df35414</color>
+    <!--50% alpha of pbba_popup_secondary_foreground_color -->
+    <color name="pbba_popup_ecomm_indicator_two_color">#80f35414</color>
+    <!--75% alpha of pbba_popup_secondary_foreground_color -->
+    <color name="pbba_popup_ecomm_indicator_three_color">#bff35414</color>
+    <!--100% alpha opacity -->
+    <color name="pbba_popup_ecomm_indicator_four_color">@color/pbba_popup_secondary_foreground_color</color>
+
+    <color name="pbba_popup_ecomm_vertical_separator_color">@color/pbba_popup_separator_color</color>
+
+    <!-- Pay by Bank app Code section -->
+    <color name="pbba_code_border_color">@color/pbba_popup_ecomm_indicator_four_color</color>
+    <color name="pbba_code_separator_color">@color/pbba_popup_separator_color</color>
+    <color name="pbba_code_background_color">@color/pbba_popup_background_color</color>
+    <color name="pbba_code_text_color">@color/pbba_popup_foreground_color</color>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/pbba_popup_container"
+    style="@style/PBBAPopup.Container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pbba="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/pbba_popup_error_container_width"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="@dimen/pbba_popup_margin_horizontal"
+    android:layout_marginRight="@dimen/pbba_popup_margin_horizontal">
+
+    <RelativeLayout
+        android:id="@+id/pbba_popup_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.zapp.library.merchant.view.TintedImageView
+            android:id="@+id/pbba_popup_close"
+            style="@style/PBBAPopup.Close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/pbba_popup_close"
+            pbba:tint="@color/pbba_popup_foreground_color" />
+
+        <com.zapp.library.merchant.view.TintedImageView
+            android:id="@+id/pbba_popup_error_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/pbba_popup_error_icon_margin_bottom"
+            android:layout_marginTop="@dimen/pbba_popup_error_icon_margin_top"
+            android:src="@drawable/pbba_popup_error_icon"
+            pbba:tint="@color/pbba_button_background_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pbba_popup_error_icon"
+            android:layout_marginLeft="@dimen/pbba_popup_content_margin_horizontal"
+            android:layout_marginRight="@dimen/pbba_popup_content_margin_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <com.zapp.library.merchant.view.CustomTextView
+                android:id="@+id/pbba_popup_error_title_text"
+                style="@style/PBBAPopup.Text.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/pbba_popup_error_title_margin_bottom"
+                android:textColor="@color/pbba_popup_foreground_color"
+                tools:text="Error popup title" />
+
+            <com.zapp.library.merchant.view.CustomTextView
+                android:id="@+id/pbba_popup_error_message_text"
+                style="@style/PBBAPopup.Text.Body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/pbba_popup_error_text_margin_bottom"
+                android:textColor="@color/pbba_popup_foreground_color"
+                tools:text="Error popup\nmulti line\ntext message" />
+
+            <com.zapp.library.merchant.view.PBBAButton
+                android:id="@+id/pbba_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include
+                layout="@layout/pbba_popup_section_what_is_pay_by_bank_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pbba_popup_error_more_info_vertical_margin_top" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

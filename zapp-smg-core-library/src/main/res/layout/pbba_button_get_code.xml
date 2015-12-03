@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pbba="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/pbba_button_get_code"
+        style="@style/PBBAButton.Container"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <com.zapp.library.merchant.view.CustomTextView
+            android:id="@+id/pbba_button_get_text"
+            style="@style/PBBAButton.Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pbba_button_text_get_code_pre"
+            pbba:fontName="@string/pbba_button_font" />
+
+        <com.zapp.library.merchant.view.TintedImageView
+            android:id="@+id/progress"
+            android:src="@drawable/pbba_symbol_icon"
+            pbba:tint="@color/pbba_button_foreground_color"
+            style="@style/PBBAButton.Progress"/>
+
+        <com.zapp.library.merchant.view.TintedImageView
+            android:id="@+id/pbba_button_code_text"
+            android:src="@drawable/pbba_code_textimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pbba_button_code_textimage_margin_left"
+            pbba:tint="@color/pbba_button_foreground_color" />
+
+    </LinearLayout>
+
+</FrameLayout>
