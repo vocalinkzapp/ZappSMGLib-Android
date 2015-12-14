@@ -16,7 +16,7 @@ import com.zapp.library.smg.core.R;
  */
 public final class AppUtils {
 
-    public static final String ZAPP_SCHEME = "zapp://";
+    public static final String ZAPP_SCHEME = "zapp";
 
     /**
      * Hidden constructor for utility class.
@@ -32,8 +32,8 @@ public final class AppUtils {
      */
     public static boolean isZappCFIAppAvailable(@NonNull final Context context) {
         final Intent zappIntent = new Intent();
-        zappIntent.setData(new Uri.Builder().scheme(ZAPP_SCHEME).build());
         zappIntent.setAction(Intent.ACTION_VIEW);
+        zappIntent.setData(new Uri.Builder().scheme(ZAPP_SCHEME).build());
         final ResolveInfo resolveInfo = context.getPackageManager().resolveActivity(zappIntent, PackageManager.MATCH_DEFAULT_ONLY);
         return resolveInfo != null;
     }
@@ -47,7 +47,7 @@ public final class AppUtils {
      */
     public static void openZappCFIApp(@NonNull Activity activity, @NonNull final String aptId, @NonNull final String aptrId) {
         if (!activity.isFinishing()) {
-            final Uri appUri = Uri.parse(ZAPP_SCHEME + aptId + '/' + aptrId);
+            final Uri appUri = Uri.parse(ZAPP_SCHEME + "://" + aptId + '/' + aptrId);
             final Intent bankingAppStartIntent = new Intent(Intent.ACTION_VIEW, appUri);
             activity.startActivity(bankingAppStartIntent);
         }
