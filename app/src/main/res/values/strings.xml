@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Movie Store</string>
+    <string name="title_activity_main">@string/app_name</string>
+
+    <!-- general -->
+    <string name="feature_not_supported">This feature is not supported in the demo application.</string>
+
+    <!-- main screen -->
+    <string name="movie_card_purchase_button_text">Purchase</string>
+    <string name="movie_card_purchase_button_text_with_price">Purchase %1$s</string>
+
+    <!-- select payment method dialog -->
+    <string name="select_payment_method_dialog_title_text">Select Payment Method</string>
+    <string name="payment_option_label_text_pbba">Pay by Bank app</string>
+    <string name="payment_option_label_text_diners_club">Pay by Diners Club</string>
+    <string name="payment_option_label_text_discover">Pay by Discover</string>
+    <string name="payment_option_label_text_mastercard">Pay by MasterCard</string>
+    <string name="payment_option_label_text_paypal">Pay by PayPal</string>
+    <string name="payment_option_label_text_visa">Pay by VISA</string>
+
+    <!-- payment confirmation dialog -->
+    <string name="payment_status_authorised">Payment successful</string>
+    <string name="payment_status_declined">Payment declined</string>
+
+    <string name="payment_status_message_authorised">The movie \'%1$s\' has been added to your library.</string>
+    <string name="payment_status_message_declined">The payment for the movie \'%1$s\' is declined. Please try again.</string>
+
+    <string name="payment_confirmation_dialog_button_text">OK</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

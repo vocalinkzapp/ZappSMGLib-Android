@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pbba_callback_url_scheme">moviestore</string>
+    <string name="pbba_merchant_id">151214000000001324</string>
+</resources>

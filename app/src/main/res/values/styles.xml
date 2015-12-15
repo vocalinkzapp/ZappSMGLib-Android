@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- main screen -->
+
+    <style name="MovieCard" />
+
+    <style name="MovieCard.PackshotImage">
+        <item name="android:layout_width">130dp</item>
+        <item name="android:layout_height">180dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="MovieCard.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="MovieCard.Button.Purchase">
+        <item name="android:textColor">@color/purchase_button_front_color</item>
+        <item name="android:background">@drawable/movie_card_purchase_button_selector</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MovieCard.Text" />
+    <style name="MovieCard.Text.Title">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Select payment method dialog -->
+    <style name="SelectPaymentMethodDialog" />
+    <style name="SelectPaymentMethodDialog.Layout">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+    <style name="SelectPaymentMethodDialog.PurchaseOption"/>
+    <style name="SelectPaymentMethodDialog.PurchaseOption.Layout">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+    <style name="SelectPaymentMethodDialog.PurchaseOption.Image">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">45dp</item>
+    </style>
+    <style name="SelectPaymentMethodDialog.PurchaseOption.Label">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!-- Payment confirmation dialog -->
+    <style name="PaymentConfirmationDialog" />
+    <style name="PaymentConfirmationDialog.DialogBody">
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="PaymentConfirmationDialog.MessageText">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+</resources>

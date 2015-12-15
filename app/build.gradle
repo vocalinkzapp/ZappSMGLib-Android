@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.zapp.smg.moviestore"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.11'
+    compile project(':zapp-smg-mcom-library')
+    compile 'com.msagi:flashbus:1.1.2'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.squareup.retrofit:retrofit:2.0.0-beta2'
+    compile 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:cardview-v7:23.1.1'
+    compile 'com.squareup.okhttp:mockwebserver:2.6.0'
+    compile 'com.squareup.okhttp:logging-interceptor:2.6.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+}
+
+File flashBusOutputDir = new File("app/build/generated/source/flashbus")
+android.applicationVariants.all { variant ->
+    String variantSubDir = variant.dirName
+    File flashBusOutput = new File(flashBusOutputDir, variantSubDir)
+    variant.addJavaSourceFoldersToModel(flashBusOutput);
+    variant.javaCompile.doFirst {
+        flashBusOutput.mkdirs();
+    }
+    variant.javaCompile.options.compilerArgs += ["-s", flashBusOutput.getAbsolutePath(), "-Apackage=" + variant.applicationId]
+}
