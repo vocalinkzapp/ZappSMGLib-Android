@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- main screen -->
+    <dimen name="movie_wallpaper_width">0dp</dimen>
+    <dimen name="movie_wallpaper_height">200dp</dimen>
+    <dimen name="movie_wallpaper_frame_height">200dp</dimen>
+
+    <!-- purchase dialog -->
+    <dimen name="purchase_dialog_corner_radius">4dp</dimen>
+
+    <!-- others -->
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>
