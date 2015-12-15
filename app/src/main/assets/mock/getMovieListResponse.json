@@ -1,0 +1,60 @@
+{
+  "movies": [
+    {
+      "id" : "022f0847-8ba9-4ee5-908b-184a71893252",
+      "title": "The Man From U.N.C.L.E.",
+      "runningTime": 116,
+      "rating": 4.0,
+      "numberOfRatings": 32,
+      "description": "Set against the backdrop of the early 1960s, at the height of the Cold War, THE MAN FROM U.N.C.L.E. centers on CIA agent Solo (Man of Steel's Henry Cavill) and KGB agent Kuryakin (The Social Network's Armie Hammer). Forced to put aside longstanding hostilities, the two team up on a joint mission to stop a mysterious international criminal organization, which is bent on destabilizing the fragile balance of power through the proliferation of nuclear weapons and technology. The duo's only lead is the daughter of a vanished German scientist, who is the key to infiltrating the criminal organization, and they must race against time to find him and prevent a worldwide catastrophe",
+      "price": 999,
+      "packshotImageUrl": "file:///android_asset/mock/packshot/022f0847-8ba9-4ee5-908b-184a71893252.webp",
+      "wallpaperImageUrl": "file:///android_asset/mock/wallpaper/022f0847-8ba9-4ee5-908b-184a71893252.png"
+    },
+    {
+      "id" : "fc25ee42-686b-4fb6-b9c7-2f3c91750e65",
+      "title": "Fantastic Four",
+      "runningTime": 99,
+      "rating": 2.2,
+      "numberOfRatings": 121,
+      "description": "A contemporary re-imagining of Marvel’s original and longest-running superhero team, centers on four young outsiders who teleport to an alternate and dangerous universe, which alters their physical form in shocking ways. Their lives irrevocably upended, the team must learn to harness their daunting new abilities and work together to save Earth from a former friend turned enemy.",
+      "price": 999,
+      "packshotImageUrl": "file:///android_asset/mock/packshot/fc25ee42-686b-4fb6-b9c7-2f3c91750e65.webp",
+      "wallpaperImageUrl": "file:///android_asset/mock/wallpaper/fc25ee42-686b-4fb6-b9c7-2f3c91750e65.png"
+    },
+    {
+      "id" : "2ab69990-4c0c-4562-b5fa-9b8ceda2df3d",
+      "title": "Harry Potter Complete Collection",
+      "runningTime": -1,
+      "rating": -1.0,
+      "numberOfRatings": -1,
+      "description": "The Magic Is All Here in the Complete 8-Film Collection. The collection includes Harry Potter and the Sorcerer's Stone™, Harry Potter and the Chamber of Secrets™, Harry Potter and the Prisoner of Azkaban™, Harry Potter and the Goblet of Fire™, Harry Potter and the Order of Phoenix™, Harry Potter and the Half-Blood Prince™, Harry Potter and the Deathly Hallows™ - Part 1, and Harry Potter and the Deathly Hallows™ - Part 2 .",
+      "price": 4199,
+      "packshotImageUrl": "file:///android_asset/mock/packshot/2ab69990-4c0c-4562-b5fa-9b8ceda2df3d.webp",
+      "wallpaperImageUrl": "file:///android_asset/mock/wallpaper/2ab69990-4c0c-4562-b5fa-9b8ceda2df3d.png"
+    },
+    {
+      "id": "2ba4b1a0-8f97-472d-b20e-b8fdf81a7687",
+      "title": "Mission: Impossible - Rogue Nation",
+      "runningTime": 131,
+      "rating": 4.5,
+      "numberOfRatings": 205,
+      "description": "Loaded with heart-pounding action and jaw-dropping stunts, prepare for the best Mission ever. With his elite organization shut down by the CIA, agent Ethan Hunt (Tom Cruise) and his team (Jeremy Renner, Simon Pegg, Ving Rhames) race against time to stop the rise of a new global threat, The Syndicate, a dangerous network of rogue operatives turned traitors. To stop them, Ethan must join forces with an elusive, disavowed agent (Rebecca Ferguson) who may or may not be on his side as he faces his most impossible mission yet.",
+      "price": 999,
+      "packshotImageUrl": "file:///android_asset/mock/packshot/2ba4b1a0-8f97-472d-b20e-b8fdf81a7687.webp",
+      "wallpaperImageUrl": "file:///android_asset/mock/wallpaper/2ba4b1a0-8f97-472d-b20e-b8fdf81a7687.png"
+    },
+    {
+      "id": "44cd4e72-d58c-462e-a44c-86800b39078a",
+      "title": "Baahubali: The Beginning",
+      "runningTime": 159,
+      "rating": 4.3,
+      "numberOfRatings": 54770,
+      "description": "When Sanga and her husband, part of a tribe living around the province of Mahismathi, save a drowning infant, little do they know the background of the infant or what the future holds for him. The kid grows up to as Shivudu, a free-spirit wanting to explore the mountains and in the process learns of his roots and then realizes the whole purpose of his life and ends up confronting the mighty Bhallala Deva!",
+      "price": 999,
+      "packshotImageUrl": "file:///android_asset/mock/packshot/44cd4e72-d58c-462e-a44c-86800b39078a.jpg",
+      "wallpaperImageUrl": "file:///android_asset/mock/wallpaper/44cd4e72-d58c-462e-a44c-86800b39078a.jpg"
+    }
+
+  ]
+}

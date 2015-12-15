@@ -1,2 +1,10 @@
 zapp-smg-core-library/src/main/gen
 zapp-smg-mcom-library/src/main/gen
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/card_root_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            android:id="@+id/card_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/movie_background_image_frame"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/movie_wallpaper_frame_height"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true">
+
+                <ImageView
+                    android:layout_gravity="bottom"
+                    android:id="@+id/movie_background_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/movie_wallpaper_height" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/movie_packshot_image"
+                style="@style/MovieCard.PackshotImage"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true" />
+
+            <Button
+                android:id="@+id/purchase_button"
+                style="@style/MovieCard.Button.Purchase"
+                android:layout_alignBottom="@+id/movie_background_image_frame"
+                android:layout_toRightOf="@+id/movie_packshot_image"
+                android:text="@string/movie_card_purchase_button_text" />
+
+            <TextView
+                android:id="@+id/movie_title_text"
+                style="@style/MovieCard.Text.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/movie_background_image_frame"
+                android:layout_toRightOf="@+id/movie_packshot_image"
+                tools:text="Movie Title - Very long so probably two lines of text" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

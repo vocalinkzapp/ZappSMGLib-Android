@@ -1,0 +1,3 @@
+include ':app', ':zapp-smg-core-library', ':zapp-smg-mcom-library'
+project(':zapp-smg-core-library').projectDir = new File('library/zapp-smg-core-library')
+project(':zapp-smg-mcom-library').projectDir = new File('library/zapp-smg-mcom-library')
