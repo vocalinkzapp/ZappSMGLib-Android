@@ -12,13 +12,13 @@
         android:layout_width="match_parent"
         android:orientation="horizontal">
 
-        <com.zapp.library.merchant.view.TintedImageView
+        <com.zapp.library.smg.core.ui.TintedImageView
             android:id="@+id/progress"
             android:src="@drawable/pbba_symbol_icon"
             pbba:tint="@color/pbba_button_foreground_color"
             style="@style/PBBAButton.Progress"/>
 
-        <com.zapp.library.merchant.view.TintedImageView
+        <com.zapp.library.smg.core.ui.TintedImageView
             android:id="@+id/pbba_button_pay_by_bank_app_text"
             android:src="@drawable/pbba_pay_by_bank_app_textimage"
             android:layout_marginLeft="@dimen/pbba_button_pay_by_bank_app_textimage_margin_left"

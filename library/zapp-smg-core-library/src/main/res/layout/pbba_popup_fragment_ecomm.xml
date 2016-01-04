@@ -34,7 +34,7 @@
                 android:orientation="vertical"
                 tools:showIn="@layout/pbba_popup_fragment_ecomm">
 
-                <com.zapp.library.merchant.view.CustomTextView
+                <com.zapp.library.smg.core.ui.CustomTextView
                     style="@style/PBBAPopup.Text.Body"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
                     android:layout_marginTop="@dimen/pbba_popup_ecomm_body_text_one_margin_top"
                     android:text="@string/pbba_popup_no_bank_app_message" />
 
-                <com.zapp.library.merchant.view.CustomTextView
+                <com.zapp.library.smg.core.ui.CustomTextView
                     style="@style/PBBAPopup.Text.Body.Bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

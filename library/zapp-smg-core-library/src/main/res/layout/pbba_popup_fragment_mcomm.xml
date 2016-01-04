@@ -32,7 +32,7 @@
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
 
-                <com.zapp.library.merchant.view.CustomTextView
+                <com.zapp.library.smg.core.ui.CustomTextView
                     android:id="@+id/pbba_popup_open_banking_app_call_to_action"
                     style="@style/PBBAPopup.Text.Body"
                     android:layout_width="wrap_content"
@@ -54,14 +54,14 @@
                     android:background="@color/pbba_popup_separator_color"
                     android:gravity="center" />
 
-                <com.zapp.library.merchant.view.CustomTextView
+                <com.zapp.library.smg.core.ui.CustomTextView
                     style="@style/PBBAPopup.Text.Title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/pbba_popup_pay_with_another_device_title"
                     android:textColor="@color/pbba_popup_foreground_color" />
 
-                <com.zapp.library.merchant.view.CustomTextView
+                <com.zapp.library.smg.core.ui.CustomTextView
                     android:id="@+id/pbba_popup_pay_with_another_device_call_to_action"
                     style="@style/PBBAPopup.Text.Body"
                     android:layout_width="wrap_content"
