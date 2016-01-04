@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     tools:showIn="@layout/pbba_popup_fragment_ecomm">
 
-    <com.zapp.library.merchant.view.TintedImageView
+    <com.zapp.library.smg.core.ui.TintedImageView
         android:id="@+id/pbba_popup_close"
         style="@style/PBBAPopup.Close"
         android:layout_width="wrap_content"
@@ -17,7 +17,7 @@
         android:src="@drawable/pbba_popup_close"
         pbba:tint="@color/pbba_popup_foreground_color" />
 
-    <com.zapp.library.merchant.view.TintedImageView
+    <com.zapp.library.smg.core.ui.TintedImageView
         android:id="@+id/pbba_popup_pay_by_bank_app_logo_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -24,7 +24,7 @@
             android:layout_marginTop="@dimen/pbba_popup_content_margin_vertical"
             android:orientation="horizontal">
 
-            <com.zapp.library.merchant.view.CustomTextView
+            <com.zapp.library.smg.core.ui.CustomTextView
                 style="@style/PBBAPopup.EComm.Text.Title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
                 android:layout_marginRight="@dimen/pbba_popup_vertical_separator_horizontal_margin_right"
                 android:background="@color/pbba_popup_ecomm_vertical_separator_color" />
 
-            <com.zapp.library.merchant.view.CustomTextView
+            <com.zapp.library.smg.core.ui.CustomTextView
                 style="@style/PBBAPopup.EComm.Text.Title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/pbba_popup_ecom_indicator_one_background" />
 
-                    <com.zapp.library.merchant.view.CustomTextView
+                    <com.zapp.library.smg.core.ui.CustomTextView
                         android:id="@+id/pbba_popup_open_banking_app_call_to_action"
                         style="@style/PBBAPopup.Text.Body"
                         android:layout_width="wrap_content"

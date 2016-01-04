@@ -10,7 +10,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent">
 
-        <com.zapp.library.merchant.view.CustomTextView
+        <com.zapp.library.smg.core.ui.CustomTextView
             android:id="@+id/pbba_button_open_banking_app_text"
             style="@style/PBBAButton.Text"
             android:layout_width="wrap_content"

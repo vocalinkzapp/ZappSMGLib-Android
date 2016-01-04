@@ -33,14 +33,14 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
-                <com.zapp.library.merchant.view.CustomTextView
+                <com.zapp.library.smg.core.ui.CustomTextView
                     style="@style/PBBAPopup.Text.Body"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="@string/pbba_popup_no_bank_app_message" />
 
-                <com.zapp.library.merchant.view.CustomTextView
+                <com.zapp.library.smg.core.ui.CustomTextView
                     style="@style/PBBAPopup.Text.Title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
                 android:paddingLeft="@dimen/pbba_popup_ecomm_section_padding_left"
                 tools:ignore="RtlSymmetry">
 
-                <com.zapp.library.merchant.view.CustomTextView
+                <com.zapp.library.smg.core.ui.CustomTextView
                     style="@style/PBBAPopup.EComm.Text.Title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
