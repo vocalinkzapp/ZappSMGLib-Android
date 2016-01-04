@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.zapp.library.merchant.view.TintedImageView
+        <com.zapp.library.smg.core.ui.TintedImageView
             android:id="@+id/pbba_popup_close"
             style="@style/PBBAPopup.Close"
             android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
             android:src="@drawable/pbba_popup_close"
             pbba:tint="@color/pbba_popup_foreground_color" />
 
-        <com.zapp.library.merchant.view.TintedImageView
+        <com.zapp.library.smg.core.ui.TintedImageView
             android:id="@+id/pbba_popup_error_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
             android:gravity="center_horizontal"
             android:orientation="vertical">
 
-            <com.zapp.library.merchant.view.CustomTextView
+            <com.zapp.library.smg.core.ui.CustomTextView
                 android:id="@+id/pbba_popup_error_title_text"
                 style="@style/PBBAPopup.Text.Title"
                 android:layout_width="wrap_content"
@@ -54,7 +54,7 @@
                 android:textColor="@color/pbba_popup_foreground_color"
                 tools:text="Error popup title" />
 
-            <com.zapp.library.merchant.view.CustomTextView
+            <com.zapp.library.smg.core.ui.CustomTextView
                 android:id="@+id/pbba_popup_error_message_text"
                 style="@style/PBBAPopup.Text.Body"
                 android:layout_width="wrap_content"
@@ -63,7 +63,7 @@
                 android:textColor="@color/pbba_popup_foreground_color"
                 tools:text="Error popup\nmulti line\ntext message" />
 
-            <com.zapp.library.merchant.view.PBBAButton
+            <com.zapp.library.smg.core.ui.PBBAButton
                 android:id="@+id/pbba_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />

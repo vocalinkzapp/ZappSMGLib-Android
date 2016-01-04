@@ -17,7 +17,7 @@
             style="@style/PBBAPopup.EComm.Item.Indicator"
             android:background="@drawable/pbba_popup_ecom_indicator_one_background"/>
 
-        <com.zapp.library.merchant.view.CustomTextView
+        <com.zapp.library.smg.core.ui.CustomTextView
             android:id="@+id/pbba_popup_ecom_item_one_text"
             style="@style/PBBAPopup.Text.Body"
             android:layout_width="wrap_content"
@@ -36,7 +36,7 @@
             style="@style/PBBAPopup.EComm.Item.Indicator"
             android:background="@color/pbba_popup_ecomm_indicator_two_color"/>
 
-        <com.zapp.library.merchant.view.CustomTextView
+        <com.zapp.library.smg.core.ui.CustomTextView
             android:id="@+id/pbba_popup_ecom_item_two_text"
             style="@style/PBBAPopup.Text.Body"
             android:layout_width="wrap_content"
@@ -55,7 +55,7 @@
             style="@style/PBBAPopup.EComm.Item.Indicator"
             android:background="@color/pbba_popup_ecomm_indicator_three_color" />
 
-        <com.zapp.library.merchant.view.CustomTextView
+        <com.zapp.library.smg.core.ui.CustomTextView
             android:id="@+id/pbba_popup_ecom_item_three_text"
             style="@style/PBBAPopup.Text.Body"
             android:layout_width="wrap_content"
@@ -87,7 +87,7 @@
                 android:gravity="center_vertical|left"
                 android:orientation="horizontal">
 
-                <com.zapp.library.merchant.view.CustomTextView
+                <com.zapp.library.smg.core.ui.CustomTextView
                     android:id="@+id/pbba_popup_ecom_item_four_text_one"
                     style="@style/PBBAPopup.Text.Body"
                     android:layout_width="wrap_content"
@@ -95,7 +95,7 @@
                     pbba:htmlText="@string/pbba_popup_ecomm_item_four_text_one"
                     tools:text="[Enter] the"/>
 
-                <com.zapp.library.merchant.view.TintedImageView
+                <com.zapp.library.smg.core.ui.TintedImageView
                     android:id="@+id/pbba_popup_ecom_item_icon_symbol"
                     android:layout_width="@dimen/pbba_popup_ecomm_item_icon_symbol_width"
                     android:layout_height="@dimen/pbba_popup_ecomm_item_icon_symbol_height"
@@ -103,7 +103,7 @@
                     android:src="@drawable/pbba_symbol_icon"
                     pbba:tint="@color/pbba_popup_foreground_color" />
 
-                <com.zapp.library.merchant.view.TintedImageView
+                <com.zapp.library.smg.core.ui.TintedImageView
                     android:id="@+id/pbba_popup_ecom_item_code_textimage"
                     android:layout_width="@dimen/pbba_popup_ecomm_item_code_textimage_width"
                     android:layout_height="@dimen/pbba_popup_ecomm_item_code_textimage_height"
@@ -112,7 +112,7 @@
                     android:src="@drawable/pbba_code_textimage"
                     pbba:tint="@color/pbba_popup_foreground_color" />
 
-                <com.zapp.library.merchant.view.CustomTextView
+                <com.zapp.library.smg.core.ui.CustomTextView
                     android:id="@+id/pbba_popup_ecom_item_four_text_two"
                     style="@style/PBBAPopup.Text.Body"
                     android:layout_width="wrap_content"
